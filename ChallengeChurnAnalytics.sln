@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeChurnAnalytics", "ChallengeChurnAnalytics\ChallengeChurnAnalytics.csproj", "{F43C93CA-B837-4815-9F5E-0410C08843BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeChurnAnalytics.Tests", "ChallengeChurnAnalytics.Tests\ChallengeChurnAnalytics.Tests.csproj", "{D97F4A8C-9174-4C38-A5BB-6F4D1EAB9A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43C93CA-B837-4815-9F5E-0410C08843BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43C93CA-B837-4815-9F5E-0410C08843BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43C93CA-B837-4815-9F5E-0410C08843BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43C93CA-B837-4815-9F5E-0410C08843BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97F4A8C-9174-4C38-A5BB-6F4D1EAB9A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97F4A8C-9174-4C38-A5BB-6F4D1EAB9A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97F4A8C-9174-4C38-A5BB-6F4D1EAB9A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97F4A8C-9174-4C38-A5BB-6F4D1EAB9A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80398E31-7B60-46EE-BEEE-46F033132529}
+	EndGlobalSection
+EndGlobal

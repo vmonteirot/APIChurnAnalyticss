@@ -1,0 +1,6 @@
+@ChallengeChurnAnalytics_HostAddress = http://localhost:5004
+
+GET {{ChallengeChurnAnalytics_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

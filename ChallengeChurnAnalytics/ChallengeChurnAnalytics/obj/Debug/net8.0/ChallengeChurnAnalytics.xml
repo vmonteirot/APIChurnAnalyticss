@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChallengeChurnAnalytics</name>
+    </assembly>
+    <members>
+        <member name="M:ChallengeChurnAnalytics.Controllers.CadastroEmpresaController.GetEmpresas">
+            <summary>
+            Recupera todas as empresas do banco de dados.
+            </summary>
+            <returns>Uma lista de empresas.</returns>
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Controllers.CadastroEmpresaController.GetEmpresa(System.Int32)">
+            <summary>
+            Recupera uma empresa específica pelo ID.
+            </summary>
+            <param name="id">O ID da empresa a ser recuperada.</param>
+            <returns>A empresa com o ID especificado.</returns>
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Controllers.CadastroEmpresaController.PostEmpresa(ChallengeChurnAnalytics.Models.CadastroEmpresa)">
+            <summary>
+            Cria uma nova empresa.
+            </summary>
+            <param name="empresa">A empresa a ser criada.</param>
+            <returns>A empresa criada.</returns>
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Controllers.CadastroEmpresaController.PutEmpresa(System.Int32,ChallengeChurnAnalytics.Models.CadastroEmpresa)">
+            <summary>
+            Atualiza uma empresa existente.
+            </summary>
+            <param name="id">O ID da empresa a ser atualizada.</param>
+            <param name="empresa">Os dados atualizados da empresa.</param>
+            <returns>Sem conteúdo se a atualização for bem-sucedida.</returns>
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Controllers.CadastroEmpresaController.DeleteEmpresa(System.Int32)">
+            <summary>
+            Remove uma empresa específica pelo ID.
+            </summary>
+            <param name="id">O ID da empresa a ser removida.</param>
+            <returns>Sem conteúdo se a remoção for bem-sucedida.</returns>
+        </member>
+        <member name="T:ChallengeChurnAnalytics.Migrations.InitialBD">
+            <inheritdoc />
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Migrations.InitialBD.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Migrations.InitialBD.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ChallengeChurnAnalytics.Migrations.InitialBD.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
