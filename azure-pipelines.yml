@@ -6,7 +6,16 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
+resources:
+  repositories:
+    - repository: self
+      type: github
+      name: vmonteirot/APIChurnAnalyticss
+      endpoint: MyAzureConnection
+
 steps:
+- checkout: self
+
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
